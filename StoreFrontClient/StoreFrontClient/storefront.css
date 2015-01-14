@@ -1,0 +1,113 @@
+/* StoreFront Style Guide */
+body, td, p
+{
+	font-family: verdana,sans-serif;
+	font-size: 10px;
+	color: #000000
+}
+
+select {font-family:verdana; font-size:10px;}
+input  {font-family:verdana; font-size:10px}
+textarea {font-family:verdana; font-size:10px}
+
+.smallgr {font-family: verdana,sans-serif; font-size: 9px; color: #666666}
+.small	 {font-family: verdana,sans-serif; font-size: 9px; color: #000000}
+
+.indentsm {margin-left: 1.0em}
+.indentlg {margin-left: 2.5em}
+
+.ih		{}
+.ih_breadcrumbs	{line-height:2.8em;color: #999999; font-size: 10px; font-weight: bold}
+
+.bg1 { background:#DEDECC;}
+
+a 	{color: #000000; font-size: 11px;}
+h2	{font-size: 14px; margin:0px}
+
+
+/* main products nav */
+a:link.nav 	{color: #000000; text-decoration: none ; font-size: 11px;}
+a:visited.nav 	{color: #000000; text-decoration: none ; font-size: 11px;}
+a:hover.nav 	{color: #EB9714; text-decoration: none ; font-size: 11px;}
+
+/* main products sub-nav */
+a:link.subnav 	 {color: #000000; text-decoration: none ; font-size: 11x;}
+a:visited.subnav {color: #000000; text-decoration: none ; font-size: 11px;}
+a:hover.subnav 	 {color: #999999; text-decoration: none ; font-size: 11px;}
+
+/* quick find component */
+a:link.quickfind    {color: #000000; text-decoration: none ; font-size: 11px;}
+a:visited.quickfind {color: #000000; text-decoration: none ; font-size: 11px;}
+a:hover.quickfind   {color: #999999; text-decoration: none ; font-size: 11px;}
+
+/* sub navigation */
+a:link.subnav 	 {color: #666666; text-decoration: none ; font-size: 9px; font-weight:bold;}
+a:visited.subnav {color: #666666; text-decoration: none ; font-size: 9px; font-weight:bold;}
+a:hover.subnav 	 {color: #000000; text-decoration: none ; font-size: 9px; font-weight:bold;}
+
+/* smaller additional links */
+a:link.addlinks    {color: #333333; text-decoration: none ; font-size: 9px; font-weight: bold}
+a:visited.addlinks {color: #333333; text-decoration: none ; font-size: 9px; font-weight: bold}
+a:hover.addlinks   {color: #78A34E; text-decoration: none ; font-size: 9px; font-weight: bold}
+
+/* footer nav */
+a:link.footer 	 {color: #666666; text-decoration: none ; font-size: 10px;}
+a:visited.footer {color: #666666; text-decoration: none ; font-size: 10px;}
+a:hover.footer 	 {color: #000000; text-decoration: none ; font-size: 10px;}
+
+/* breadcrumb nav */
+.breadcrumbs_t 		{color: #999999; text-decoration: none ; font-size: 10px; font-weight: bold}
+.cat_high 		{color: #EB9714; text-decoration: none ; font-size: 10px; font-weight: bold}
+a:link.breadcrumbs 	{color: #999999; text-decoration: none ; font-size: 10px; font-weight: bold;}
+a:visited.breadcrumbs 	{color: #999999; text-decoration: none ; font-size: 10px; font-weight: bold}
+a:hover.breadcrumbs 	{color: #EB9714; text-decoration: none ; font-size: 10px; font-weight: bold}
+
+/* error text */
+.errorText {color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold}
+
+/* product titles */
+.producttitle {color: #666666; text-decoration: none ; font-size: 16px; font-weight: bold}
+
+/* general title */
+.generaltitle {color: #666666; text-decoration: none ; font-size: 12px; font-weight: bold}
+
+/* product description */
+.productdesc {color: #666666; text-decoration: none ; font-size: 10px}
+
+/* product price */
+.productprice {color: #9E4F16; text-decoration: none ; font-size: 14px; font-weight: bold}
+
+
+table.pager {width:100%; padding:10px; border:solid 1px #EEEEEE;}
+th.pager    {font-size:10px;text-align:left;background-color:#CCCCCC;}
+td.pager    {font-size:10px;text-align:left;}
+
+table.dealerPager 	{width:650; padding:5px; border:solid 1px #EEEEEE;}
+th.dealerPager   	{font-size:10px;text-align:left;background-color:#CCCCCC;}
+td.dealerPager    	{font-size:10px;text-align:left;}
+td.dealerPagerDetail    {font-size:10px;padding:3px;text-align:left;background-color:#CCCCCC;}
+
+
+table.productpager           {width:100%; padding:10px; border:solid 1px #EEEEEE;}
+td.productPagerName          {width:150px;}
+td.productPagerPrice         {width:70px;}
+td.productPagerImage 	     {width:150px; text-align:right;}
+td.productPagerModelNumber   {width:75px;}
+.even 			     {background-color:#eeeeee;}
+.category_menu_node_selected {font-weight:bold;}
+
+/* order table */
+
+table.orders {border: solid 1px #cacaca;}
+
+/* lists */
+ul           { list-style-image:
+               url('file:///C:/Documents%20and%20Settings/Todd%20Fearn/Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/bullet.gif');
+               margin-left: 20px; margin-top: 0px }
+H1	{font-size:14px; color:#663300; font-weight:bold;}
+H2	{font-size:12px; color:#663300; font-weight:bold; line-height:20px;}
+H3	{font-size:11px; color:#663300; font-weight:bold; line-height:20px;}
+
+<style>
+.disabled{filter: alpha(opacity=40)}
+</style>

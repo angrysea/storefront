@@ -1,0 +1,17 @@
+    <option value="0">(none)</option>
+    <option value="Capt"> Capt
+    <option value="Col"> Col
+    <option value="Corp"> Corp
+    <option value="Dir"> Dir
+    <option value="Dr"> Dr
+    <option value="Lt"> Lt
+    <option value="LtCol"> LtCol
+    <option value="LtGen"> LtGen
+    <option value="Maj"> Maj
+    <option value="Mr"> Mr
+    <option value="Mrs"> Mrs
+    <option value="Ms"> Ms
+    <option value="Pres"> Pres
+    <option value="Rev"> Rev
+    <option value="Sgt"> Sgt
+    <option value="VP"> VP

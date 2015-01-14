@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="Pounds" mixed="true"/>
+	<xs:complexType name="Ounces" mixed="true"/>
+	<xs:complexType name="MailType" mixed="true"/>
+	<xs:complexType name="Country" mixed="true"/>
+	<xs:complexType name="AreasServed" mixed="true"/>
+	<xs:complexType name="CustomsForms" mixed="true"/>
+	<xs:complexType name="ExpressMail" mixed="true"/>
+	<xs:complexType name="MaxDimensions" mixed="true"/>
+	<xs:complexType name="MaxWeight" mixed="true"/>
+	<xs:complexType name="Observations" mixed="true"/>
+	<xs:complexType name="Prohibitions" mixed="true"/>
+	<xs:complexType name="Restrictions" mixed="true"/>
+	<xs:complexType name="SvcCommitments" mixed="true"/>
+	<xs:complexType name="SvcDescription" mixed="true"/>
+	<xs:complexType name="Postage" mixed="true"/>
+	<xs:complexType name="Service" mixed="true">
+		<xs:sequence>
+			<xs:element name="Pounds" type="Pounds"/>
+			<xs:element name="Ounces" type="Ounces"/>
+			<xs:element name="MailType" type="MailType"/>
+			<xs:element name="Country" type="Country"/>
+			<xs:element name="Postage" type="Postage"/>
+			<xs:element name="SvcCommitments" type="SvcCommitments"/>
+			<xs:element name="SvcDescription" type="SvcDescription"/>
+			<xs:element name="MaxDimensions" type="MaxDimensions"/>
+			<xs:element name="MaxWeight" type="MaxWeight"/>
+		</xs:sequence>
+		<xs:attribute name="ID" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="Package">
+		<xs:sequence>
+			<xs:element name="Pounds" type="Pounds" minOccurs="0"/>
+			<xs:element name="Ounces" type="Ounces" minOccurs="0"/>
+			<xs:element name="MailType" type="MailType" minOccurs="0"/>
+			<xs:element name="Country" type="Country" minOccurs="0"/>
+			<xs:element name="Prohibitions" type="Prohibitions" minOccurs="0"/>
+			<xs:element name="Restrictions" type="Restrictions" minOccurs="0"/>
+			<xs:element name="Observations" type="Observations" minOccurs="0"/>
+			<xs:element name="CustomsForms" type="CustomsForms" minOccurs="0"/>
+			<xs:element name="ExpressMail" type="ExpressMail" minOccurs="0"/>
+			<xs:element name="AreasServed" type="AreasServed" minOccurs="0"/>
+			<xs:element name="Service" type="Service" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="ID" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="IntlRateRequest">
+		<xs:sequence>
+			<xs:element name="Package" type="Package" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="USERID" type="xs:string"/>
+		<xs:attribute name="PASSWORD" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="IntlRateResponse">
+		<xs:sequence>
+			<xs:element name="Package" type="Package" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

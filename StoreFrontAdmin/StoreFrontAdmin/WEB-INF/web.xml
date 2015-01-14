@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <display-name>StoreFrontAdmin</display-name>
+     <security-constraint>
+        <display-name>StoreFront Configuration Security Constraint</display-name>
+        <web-resource-collection>
+           <web-resource-name>Protected Area</web-resource-name>
+           <url-pattern>/index.jsp</url-pattern>
+           <url-pattern>/products.jsp</url-pattern>
+           <url-pattern>/similarproducts1.jsp</url-pattern>
+           <url-pattern>/productadd.jsp</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+           <role-name>sfstaff</role-name>
+           <role-name>sfadmin</role-name>
+        </auth-constraint>
+     </security-constraint>
+     <security-constraint>
+        <display-name>StoreFront Configuration Security Constraint</display-name>
+        <web-resource-collection>
+           <web-resource-name>Protected Area</web-resource-name>
+           <url-pattern>/packingslips.jsp</url-pattern>
+           <url-pattern>/packingslipsadd.jsp</url-pattern>
+           <url-pattern>/shippackages.jsp</url-pattern>
+           <url-pattern>/purchaseorderadd.jsp</url-pattern>
+           <url-pattern>/purchaseorderreceive1.jsp</url-pattern>
+           <url-pattern>/purchaseorders.jsp</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+           <role-name>sfshipping</role-name>
+           <role-name>sfadmin</role-name>
+        </auth-constraint>
+     </security-constraint>
+     <security-constraint>
+        <display-name>StoreFront Configuration Security Constraint</display-name>
+        <web-resource-collection>
+           <web-resource-name>Protected Area</web-resource-name>
+           <url-pattern>/distributors.jsp</url-pattern>
+           <url-pattern>/manufacturers.jsp</url-pattern>
+           <url-pattern>/featuredproducts.jsp</url-pattern>
+           <url-pattern>/coupons.jsp</url-pattern>
+           <url-pattern>/users.jsp</url-pattern>
+           <url-pattern>/customers.jsp</url-pattern>
+           <url-pattern>/salesorders.jsp</url-pattern>
+           <url-pattern>/invoices.jsp</url-pattern>
+           <url-pattern>/pricingwizard.jsp</url-pattern>
+           <url-pattern>/rebuildkeywords.jsp</url-pattern>
+           <url-pattern>/company.jsp</url-pattern>
+           <url-pattern>/theme.jsp</url-pattern>
+           <url-pattern>/emaillist.jsp</url-pattern>
+           <url-pattern>/emaillistadd.jsp</url-pattern>
+           <url-pattern>/emailcoupons1.jsp</url-pattern>
+           <url-pattern>/emailcoupons2.jsp</url-pattern>
+           <url-pattern>/links.jsp</url-pattern>
+           <url-pattern>/linkadd.jsp</url-pattern>
+           <url-pattern>/report_webstats.jsp</url-pattern>
+           <url-pattern>/report_mostviewedproducts.jsp</url-pattern>
+           <url-pattern>/report_mostpurchasedproducts.jsp</url-pattern>
+           <url-pattern>/report_mostpopularsearches.jsp</url-pattern>
+           <url-pattern>/minisitegenerate.jsp</url-pattern>
+           <url-pattern>/uploadtofroogle.jsp</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+           <role-name>sfadmin</role-name>
+        </auth-constraint>
+     </security-constraint>
+     <login-config>
+        <auth-method>FORM</auth-method>
+        <realm-name>StoreFront Administration Configuration Authentication Area</realm-name>
+        <form-login-config>
+           <form-login-page>/login.jsp</form-login-page>
+           <form-error-page>/error.jsp</form-error-page>
+        </form-login-config>
+     </login-config>
+     <security-role>
+        <description>The role that is required to log in to the Administration Application</description>
+        <role-name>sfadmin</role-name>
+     </security-role>
+     <security-role>
+        <description>The role that is required to log in to the Administration Application</description>
+        <role-name>sfshipping</role-name>
+     </security-role>
+     <security-role>
+        <description>The role that is required to log in to the Administration Application</description>
+        <role-name>sfstaff</role-name>
+     </security-role>
+</web-app>

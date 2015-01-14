@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><AccessRequest><AccessLicenseNumber>0BAF76AA0EC17038</AccessLicenseNumber><Password>amg9246</Password><UserId>angrysea</UserId></AccessRequest>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<RatingServiceSelectionRequest>
+	<PickupType>
+		<Code>02</Code>
+	</PickupType>
+	<Request>
+		<RequestAction>Rate</RequestAction>
+		<RequestOption>Rate</RequestOption>
+		<TransactionReference>
+			<CustomerContext>Rating and Service</CustomerContext>
+			<XpciVersion>1.0001</XpciVersion>
+		</TransactionReference>
+	</Request>
+	<Shipment>
+		<Package>
+			<Description>Rate Shopping</Description>
+			<PackageWeight>
+				<Weight>1.0</Weight>
+			</PackageWeight>
+			<PackagingType>
+				<Code>02</Code>
+				<Description>Package</Description>
+			</PackagingType>
+		</Package>
+		<Service>
+			<Code>11</Code>
+		</Service>
+		<ShipTo>
+			<Address>
+				<CountryCode>US</CountryCode>
+				<PostalCode>07960</PostalCode>
+			</Address>
+		</ShipTo>
+		<Shipper>
+			<Address>
+				<CountryCode>US</CountryCode>
+				<PostalCode>28043</PostalCode>
+			</Address>
+		</Shipper>
+	</Shipment>
+</RatingServiceSelectionRequest>
+
+
+<?xml version="1.0"?>
+<RatingServiceSelectionResponse>
+	<Response>
+		<TransactionReference>
+			<CustomerContext>Rating and Service</CustomerContext>
+			<XpciVersion>1.0001</XpciVersion>
+		</TransactionReference>
+		<ResponseStatusCode>1</ResponseStatusCode>
+		<ResponseStatusDescription>Success</ResponseStatusDescription>
+	</Response>
+	<RatedShipment>
+		<Service>
+			<Code>03</Code>
+		</Service>
+		<BillingWeight>
+			<UnitOfMeasurement>
+				<Code>LBS</Code>
+			</UnitOfMeasurement>
+			<Weight>1.0</Weight>
+		</BillingWeight>
+		<TransportationCharges>
+			<CurrencyCode>USD</CurrencyCode>
+			<MonetaryValue>3.81</MonetaryValue>
+		</TransportationCharges>
+		<ServiceOptionsCharges>
+			<CurrencyCode>USD</CurrencyCode>
+			<MonetaryValue>0.00</MonetaryValue>
+		</ServiceOptionsCharges>
+		<TotalCharges>
+			<CurrencyCode>USD</CurrencyCode>
+		<MonetaryValue>3.81</MonetaryValue>
+		</TotalCharges>
+		<GuaranteedDaysToDelivery>
+		</GuaranteedDaysToDelivery>
+		<ScheduledDeliveryTime>
+		</ScheduledDeliveryTime>
+		<RatedPackage>
+		<TransportationCharges>
+		<CurrencyCode>USD</CurrencyCode>
+		<MonetaryValue>3.81</MonetaryValue></TransportationCharges><ServiceOptionsCharges><CurrencyCode>USD</CurrencyCode><MonetaryValue>0.00</MonetaryValue></ServiceOptionsCharges><TotalCharges><CurrencyCode>USD</CurrencyCode><MonetaryValue>3.81</MonetaryValue></TotalCharges><Weight>1.0</Weight><BillingWeight><UnitOfMeasurement><Code>LBS</Code></UnitOfMeasurement><Weight>1.0</Weight></BillingWeight></RatedPackage></RatedShipment></RatingServiceSelectionResponse>

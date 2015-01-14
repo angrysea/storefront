@@ -1,0 +1,367 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<HTML>
+        <script language="JavaScript">
+        function strltrim() {
+            return this.replace(/^\s+/,'');
+        }
+        function strrtrim() {
+            return this.replace(/\s+$/,'');
+        }
+        function strtrim() {
+            return this.replace(/^\s+/,'').replace(/\s+$/,'');
+        }
+        String.prototype.ltrim = strltrim;
+        String.prototype.rtrim = strrtrim;
+        String.prototype.trim = strtrim;
+    </script>
+
+    <script language="JavaScript">
+        function checkEmail(emailaddress)
+        {
+            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailaddress))
+            {
+                return (true)
+            }
+            alert("Invalid E-mail Address! Please re-enter.")
+            return (false)
+        }
+    </script>
+
+    <script language="JavaScript">
+        function isValid(string,allowed)
+        {
+            for (var i=0; i< string.length; i++)
+            {
+                if (allowed.indexOf(string.charAt(i)) == -1)
+                    return false;
+            }
+            return true;
+        }
+    </script>
+
+    <SCRIPT LANGUAGE="JavaScript">
+    </SCRIPT>
+    <HEAD>
+        
+
+
+
+
+
+
+
+
+
+        <title>Fern Knives hunting fishing camping survival pocket folding knife equipment</title>
+
+
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+        <meta http-equiv="Description" content="Fern Knives-online retailer of pocket, folding & fixed blade knives & equipment for sports, work, utility & outdoor-hunting, fishing, camping, hiking, backpacking, climbing, survival/tactical/rescue, dive/boating & water sports. Custom & collector knives.">
+
+
+        <meta http-equiv="Keywords" content="Fern Knives hunting fishing camping survival pocket folding knife equipment">
+
+
+        <LINK href="http://67.80.184.158:8082/StoreFrontClient/storefront.css" rel="STYLESHEET"></LINK>
+    </HEAD>
+    <BODY leftMargin="0" topMargin="0" onload="" marginwidth="0" marginheight="0">
+        
+
+
+
+
+
+
+
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+    function OnClickTopBarLink(link)
+    {
+        window.location = link;
+    }
+</SCRIPT>
+<TABLE valign="0" cellSpacing="0" cellPadding="0" border="0">
+    <TR>
+        <TD height="74" width="223" background="http://67.80.184.158:8082/fernknives/images/logo.gif"></TD>
+        <TD width="560" height="10" background="http://67.80.184.158:8082/fernknives/images/spacer.gif"></TD>
+        <TD align="right" width="180" height="82" background="http://67.80.184.158:8082/fernknives/images/scenery.gif"></TD>
+    </TR>
+</TABLE>
+<TABLE align="0" cellSpacing="0" cellPadding="0" width="100%" border="0">
+    <TR>
+        <TD><img src="http://67.80.184.158:8082/fernknives/images/filler_left.gif" width="300" height="24"></TD>
+        <TD><input alt="home" type="image" src="http://67.80.184.158:8082/fernknives/images/home.gif" width="94" height="24" onclick="OnClickTopBarLink('http://67.80.184.158:8082/StoreFrontClient/index.jsp')" /></TD>
+        <TD><input alt="your account" type="image" src="http://67.80.184.158:8082/fernknives/images/youraccount.gif" width="94" height="24" onclick="OnClickTopBarLink('https://67.80.184.158/StoreFrontClient/youraccount.jsp')" /></TD>
+        <TD><input alt="shopping cart" type="image" src="http://67.80.184.158:8082/fernknives/images/cart.gif" width="94" height="24" onclick="OnClickTopBarLink('http://67.80.184.158:8082/StoreFrontClient/shoppingcart.jsp')"/></TD>
+        <TD><input alt="checkout" type="image" src="http://67.80.184.158:8082/fernknives/images/checkout.gif" width="94" height="24" onclick="OnClickTopBarLink('https://67.80.184.158/StoreFrontClient/checkoutmethod.jsp')" /></TD>
+        <TD><input alt="contact us" type="image" src="http://67.80.184.158:8082/fernknives/images/contactus.gif" width="94" height="24" onclick="OnClickTopBarLink('http://67.80.184.158:8082/StoreFrontClient/contactus.jsp')" /></TD>
+        <TD width="100%" background="http://67.80.184.158:8082/fernknives/images/toolbar_filler.gif"><img src="http://67.80.184.158:8082/fernknives/images/toolbar_filler.gif" width="5" height="24"></TD>
+    </TR>
+    <tr>
+        
+                <td nowrap colspan="3" align="center" width="450">
+                    Welcome  Todd Fearn,  Click here to <a href="https://67.80.184.158/StoreFrontClient/logout.jsp?gotourl=https://67.80.184.158/StoreFrontClient/orderdetails.jsp">log out</a>
+                </td>
+        
+            <td nowrap colspan="4">
+                <img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" width="15" height="1" />
+                0 item(s) in your <a href="http://67.80.184.158:8082/StoreFrontClient/shoppingcart.jsp">cart</a>
+            </td>
+    </tr>
+</TABLE>
+
+        <table cellSpacing="0" cellPadding="0" border="0">
+            <tr>
+                <td vAlign="top" width="20">
+                    <IMG src="http://67.80.184.158:8082/fernknives/images/spacer.gif" border="0">
+                </td>
+                <td vAlign="top">
+                    <table id="headingTable" border="0">
+                        <tr>
+                            <td><img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" width="5" height="20"></td>
+                        </tr>
+                    </table>
+                    <table cellSpacing="1" cellPadding="1" width="550" border="0">
+                        <tr bgcolor="#eeeecc">
+                            <td colspan="5" nowrap class="producttitle">Order</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" width="1" height="4" /></td>
+                        </tr>
+                    </table>
+
+                    <table border="0" width="100">
+                        <tr>
+                            <td nowrap align="left"><b>ID:</b></td>
+                            <td align="left">87</td>
+                        </tr>
+                        <tr>
+                            <td align="left"><b>Date:</b></td>
+                            <td align="left">04/23/2004</td>
+                        </tr>
+                    </table>
+                    <table border="0" width="550">
+                        <tr>
+                            <td colspan="2"><img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" width="5" height="5"></td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <table border="0" cellSpacing="0" cellPadding="0">
+                                <tr>
+                                    <td nowrap><b>Billing Address</b></td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>Todd Fearn</td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>44 Miller Rd</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td nowrap>Morristown, NJ 07960 </td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>973-360-0086</td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>tfearn@yahoo.com</td>
+                                </tr>
+                                </table>
+                            </td>
+                            <td valign="top">
+                                <table border="0" cellSpacing="0" cellPadding="0">
+                                <tr>
+                                    <td nowrap><b>Shipping Address</b></td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>Todd Fearn</td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>44 Miller Rd</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td nowrap>Morristown, NJ 07960 </td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>973-360-0086</td>
+                                </tr>
+                                </table>
+                            </td>
+                            <td valign="top">
+                                <table border="0" cellSpacing="0" cellPadding="0">
+                                <tr>
+                                    <td colspan="2" nowrap><b>Credit Card Used</b></td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>Number:</td>
+                                    <td>XXXXXXXXXXX1000</td>
+                                </tr>
+                                <tr>
+                                    <td nowrap>Expiration:</td>
+                                    <td nowrap>09/2004</td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table cellSpacing="1" cellPadding="2" border="0" width="550">
+                    <tr>
+                        <td nowrap align="left"><b>Item</b></td>
+                        <td nowrap align="right"><b>Unit Price</b></td>
+                        <td nowrap align="center"><b>Quantity</b></td>
+                        <td nowrap align="right"><b>Item Total</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td bgcolor="#c2a877"><img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" width="550" height="2"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                            <tr>
+                                <td align="left" width="350">Buck Approach
+                                    <br>Item number: BU-5259
+                                </td>
+                                <td align="right">$35.00</td>
+                                <td align="center">1</td>
+                                <td align="right">$35.00</td>
+                            </tr>
+                    
+                            <tr>
+                                <td align="left" width="350">Buck Metro
+                                    <br>Item number: BU-5440
+                                </td>
+                                <td align="right">$17.60</td>
+                                <td align="center">1</td>
+                                <td align="right">$17.60</td>
+                            </tr>
+                    
+                    <tr>
+                        <td colspan="4">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td bgcolor="#c2a877"><img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" width="550" height="1"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right" nowrap><b>Merchandise Total:</b></td>
+                        <td align="right"><b>$52.60</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"></td>
+                        <td colspan="3" align="right">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td bgcolor="#c2a877"><img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" width="250" height="1"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right" nowrap>Shipping Costs:</td>
+                        <td align="right">$4.13</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right" nowrap>NJ Sales Tax 6%:</td>
+                        <td align="right">$3.16</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"></td>
+                        <td colspan="3" align="right">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td bgcolor="#c2a877"><img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" width="250" height="1"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right" nowrap><b>Amount Charged to Your Credit Card:</b></td>
+                        <td align="right"><b>$59.89</b></td>
+                    </tr>
+                    </table>
+                    <table border="0">
+                        <tr>
+                            <td><br></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" align="right"><a href="https://67.80.184.158/StoreFrontClient/orderhistory.jsp"><img alt="continue" border="0" src="http://67.80.184.158:8082/fernknives/images/continue_button.gif"/></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+
+
+
+
+
+
+
+
+
+
+<table width="350" align="center">
+    <tr>
+        <td><br></td>
+    </tr>
+    <tr>
+        <td><br></td>
+    </tr>
+    <tr>
+        <td><br></td>
+    </tr>
+    <tr>
+        <td><br></td>
+    </tr>
+    <tr align="center">
+        <td nowrap>    <a href="http://67.80.184.158:8082/StoreFrontClient/index.jsp">Home</a>
+		| <a href="https://67.80.184.158/StoreFrontClient/login.jsp">Log In</a>
+		| <a href="https://67.80.184.158/StoreFrontClient/youraccount.jsp">Your Account</a>
+		| <a href="http://67.80.184.158:8082/StoreFrontClient/shoppingcart.jsp">Shopping Cart</a>
+		| <a href="https://67.80.184.158/StoreFrontClient/checkoutmethod.jsp">Checkout</a>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>	<a href="http://67.80.184.158:8082/StoreFrontClient/privacysecurity.jsp">Privacy & Security</a>
+		| <a href="http://67.80.184.158:8082/StoreFrontClient/contactus.jsp">Contact Us</a>
+        </td>
+    </tr>
+    <tr>
+  	<td height="5"><img src="http://67.80.184.158:8082/fernknives/images/spacer.gif" height="5" width="1" border="0"></td>
+    </tr>
+
+    <tr>
+        <td><CENTER>Copyright © 2004 Fern Knives. All Rights Reserved.</CENTER></td>
+    </tr>
+</table>
+
+    </BODY>
+</HTML>
+
